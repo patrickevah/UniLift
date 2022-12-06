@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+//import React, { useState } from "react";
 import './App.css';
 import { Login } from "./Login";
 import { Register } from "./Register";
-import logo from "./logo.svg";
+//import logo from "./logo.svg";
 import "@aws-amplify/ui-react/styles.css";
-import { NavbarComponent } from "./components/Header/Navbar/NavbarComponent";
+import { NavbarComponent } from "./components/Header/Navbar/NavbarComponents";
 import { Home } from "./components/Home/Home";
 import { Routes, Route } from "react-router-dom";
 

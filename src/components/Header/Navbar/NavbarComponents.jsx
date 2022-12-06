@@ -1,6 +1,5 @@
 import React from "react";
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
-import car from "../../../assets/icons/car-wash.png";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 export const NavbarComponent = () => {
@@ -18,44 +17,7 @@ export const NavbarComponent = () => {
           </Link>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto">
-              <NavDropdown title="More Travel" id="collasible-nav-dropdown">
-                <NavDropdown.Item to="#action/3.1">
-                  {" "}
-                  <img
-                    alt="hotel logo"
-                    src={hotel}
-                    className="nav-icons"
-                  />{" "}
-                  Stays
-                </NavDropdown.Item>
-                <NavDropdown.Item to="#action/3.3">
-                  {" "}
-                  <img alt="car logo" src={car} className="nav-icons" />
-                  Cars
-                </NavDropdown.Item>
-                <NavDropdown.Item to="#action/3.3">
-                  {" "}
-                  <img alt="tour logo" src={tour} className="nav-icons" />
-                  packages
-                </NavDropdown.Item>
-                <NavDropdown.Item to="#action/3.3">
-                  {" "}
-                  <img
-                    alt="activity logo"
-                    src={activity}
-                    className="nav-icons"
-                  />
-                  Holiday activities
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item to="#action/3.4">Deals</NavDropdown.Item>
-                <NavDropdown.Item to="#action/3.4">
-                  Groups &amp; meetings
-                </NavDropdown.Item>
-                <NavDropdown.Item to="#action/3.4">Mobile</NavDropdown.Item>
-              </NavDropdown>
-            </Nav>
+    
             <Nav>
               <Nav.Link to="#deets">English</Nav.Link>
               <Nav.Link to="#deets">List Your Property</Nav.Link>
