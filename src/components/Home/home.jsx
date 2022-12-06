@@ -1,11 +1,11 @@
 import React from "react";
-import { Header } from "../Header/Header";
+import { Headers } from "../Header/Headers";
 import { Oneimg } from "./Oneimg";
 
 export const Home = () => {
   return (
     <div>
-      <Header></Header>
+      <Headers></Headers>
       <Oneimg></Oneimg>
       <div>
         <p style={{ textAlign: "center" }}>

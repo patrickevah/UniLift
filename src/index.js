@@ -4,13 +4,20 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Amplify } from 'aws-amplify';
+import "bootstrap/dist/css/bootstrap.min.css";
+import { StaysInputContextProvider } from "./StaysInputContext";
+import { BrowserRouter } from "react-router-dom";
 import config from './aws-exports';
 Amplify.configure(config);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+      <StaysInputContextProvider>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </StaysInputContextProvider>  
   </React.StrictMode>
 );
 

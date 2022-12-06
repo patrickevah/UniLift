@@ -7,6 +7,7 @@ import "@aws-amplify/ui-react/styles.css";
 import { NavbarComponent } from "./components/Header/Navbar/NavbarComponents";
 import { Home } from "./components/Home/Home";
 import { Routes, Route } from "react-router-dom";
+import { Footer } from "./components/Footer/Footer";
 
 
 function App() {
@@ -16,7 +17,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/home" element={<Home />}></Route>
-        <Route path="/searchResult" element={<Result />}></Route>
         <Route path="/Login" element={<Login />}></Route>
         <Route path="/Register" element={<Register />}></Route>
       </Routes>

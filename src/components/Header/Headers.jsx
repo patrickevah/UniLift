@@ -1,26 +1,13 @@
 import React from "react";
-import "./Img.css";
 import { Button } from "react-bootstrap";
-export const Oneimg = () => {
+export const Headers = () => {
   return (
     <div className="one-img-conatainer">
-      <img
-        className="hm-img"
-        alt="homepage-logo"
-        src="https://a.travel-assets.com/travel-assets-manager/ux-887/Global-HP-Hero-928x398.jpg"
-      />
-      <img
-        className="hm-img"
-        alt="homepage-logo"
-        src="https://a.travel-assets.com/travel-assets-manager/gmvd-1482-bookearly-emea/667x320.jpg"
-      />
+      
 
       <div className="hm-ft-img">
         <div className>
-          <img
-            src="https://a.travel-assets.com/mad-service/footer/bnaBanners/BEX_ROME_iStock_72dpi.jpg"
-            alt="ft-img"
-          />
+          
         </div>
         <div className="contact">
           <h2>Our app takes you further</h2>
@@ -56,11 +43,7 @@ export const Oneimg = () => {
           </p>
         </div>
         <div className="qr-code">
-          <img
-            className="qr-code-img"
-            src="https://a.travel-assets.com/mad-service/qr-code/footer_qr_hp/14_QR_FOOTER_BNA_HP.png"
-            alt="expedia"
-          />
+          
           <span>Scan the QR Code</span>
         </div>
       </div>
