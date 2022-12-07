@@ -1,7 +1,7 @@
-//import React, { useState } from "react";
+import React from "react";
 import './App.css';
-import { Login } from "./Login";
-import { Register } from "./Register";
+import { Login } from "../src/components/Login";
+import { Register } from "../src/components/Register";
 //import logo from "./logo.svg";
 import "@aws-amplify/ui-react/styles.css";
 import { NavbarComponent } from "./components/Header/Navbar/NavbarComponents";
@@ -20,7 +20,9 @@ function App() {
         <Route path="/Login" element={<Login />}></Route>
         <Route path="/Register" element={<Register />}></Route>
       </Routes>
-      <Footer></Footer>
+      <Footer>
+ 
+      </Footer>
     </div>
   );
 }
